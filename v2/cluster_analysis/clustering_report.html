@@ -1,0 +1,182 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Clustering Results Summary</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+                h1, h2 { color: #333366; }
+                .container { max-width: 1200px; margin: auto; background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+                .img-container { margin: 20px 0; text-align: center; }
+                img { max-width: 100%; border: 1px solid #ddd; border-radius: 5px; }
+                .summary { background-color: #e6f7ff; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+                table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+                th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+                th { background-color: #f2f2f2; }
+                a { color: #0066cc; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>Clustering Analysis Results</h1>
+                
+                <div class="summary">
+                    <h2>Summary</h2>
+                    <p><strong>Total Samples:</strong> 624</p>
+                    <p><strong>Number of Clusters:</strong> 4</p>
+                    <p><strong>Largest Cluster Size:</strong> 621</p>
+                    <p><strong>Average Cluster Size:</strong> 156.00</p>
+                    <p><strong>Median Cluster Size:</strong> 1.00</p>
+                </div>
+                
+                <h2>Visualizations</h2>
+        
+                <div class="img-container">
+                    <h3>Cluster Size Distribution</h3>
+                    <a href="1_cluster_size_distribution.png" target="_blank">
+                        <img src="1_cluster_size_distribution.png" alt="Cluster Size Distribution">
+                    </a>
+                    <p><a href="1_cluster_size_distribution.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>Top 5 Largest Clusters</h3>
+                    <a href="2_top_5_clusters.png" target="_blank">
+                        <img src="2_top_5_clusters.png" alt="Top 5 Largest Clusters">
+                    </a>
+                    <p><a href="2_top_5_clusters.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>Cumulative Sample Distribution</h3>
+                    <a href="3_cumulative_distribution.png" target="_blank">
+                        <img src="3_cumulative_distribution.png" alt="Cumulative Sample Distribution">
+                    </a>
+                    <p><a href="3_cumulative_distribution.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>Similarity Between Top Clusters</h3>
+                    <a href="4_similarity_heatmap.png" target="_blank">
+                        <img src="4_similarity_heatmap.png" alt="Similarity Between Top Clusters">
+                    </a>
+                    <p><a href="4_similarity_heatmap.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>PCA Visualization</h3>
+                    <a href="5_pca_visualization.png" target="_blank">
+                        <img src="5_pca_visualization.png" alt="PCA Visualization">
+                    </a>
+                    <p><a href="5_pca_visualization.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>t-SNE Visualization</h3>
+                    <a href="6_tsne_visualization.png" target="_blank">
+                        <img src="6_tsne_visualization.png" alt="t-SNE Visualization">
+                    </a>
+                    <p><a href="6_tsne_visualization.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>Cluster Quality Metrics</h3>
+                    <a href="7_cluster_quality_metrics.png" target="_blank">
+                        <img src="7_cluster_quality_metrics.png" alt="Cluster Quality Metrics">
+                    </a>
+                    <p><a href="7_cluster_quality_metrics.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>Detailed Analysis of Top 5 Clusters</h3>
+                    <a href="8_top_5_clusters_analysis.png" target="_blank">
+                        <img src="8_top_5_clusters_analysis.png" alt="Detailed Analysis of Top 5 Clusters">
+                    </a>
+                    <p><a href="8_top_5_clusters_analysis.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>Parameter Heatmap</h3>
+                    <a href="9_parameter_heatmap.png" target="_blank">
+                        <img src="9_parameter_heatmap.png" alt="Parameter Heatmap">
+                    </a>
+                    <p><a href="9_parameter_heatmap.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>Parameter Impact on Cluster Count</h3>
+                    <a href="10_parameter_impact.png" target="_blank">
+                        <img src="10_parameter_impact.png" alt="Parameter Impact on Cluster Count">
+                    </a>
+                    <p><a href="10_parameter_impact.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>Parameter Space Exploration</h3>
+                    <a href="11_parameter_space.png" target="_blank">
+                        <img src="11_parameter_space.png" alt="Parameter Space Exploration">
+                    </a>
+                    <p><a href="11_parameter_space.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>Best Parameter Combinations</h3>
+                    <a href="12_best_parameters.png" target="_blank">
+                        <img src="12_best_parameters.png" alt="Best Parameter Combinations">
+                    </a>
+                    <p><a href="12_best_parameters.png" download>Download this image</a></p>
+                </div>
+            
+                <h2>Top 5 Clusters</h2>
+                <table>
+                    <tr>
+                        <th>Cluster ID</th>
+                        <th>Size</th>
+                        <th>% of Total</th>
+        
+                        <th>Avg. Intra-Similarity</th>
+            
+                    </tr>
+        
+                    <tr>
+                        <td>0</td>
+                        <td>621</td>
+                        <td>99.52%</td>
+            
+                        <td>0.6712</td>
+                
+                    </tr>
+            
+                    <tr>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>0.16%</td>
+            
+                        <td>1.0000</td>
+                
+                    </tr>
+            
+                    <tr>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>0.16%</td>
+            
+                        <td>1.0000</td>
+                
+                    </tr>
+            
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0.16%</td>
+            
+                        <td>1.0000</td>
+                
+                    </tr>
+            
+                </table>
+        
+            </div>
+        </body>
+        </html>
+        

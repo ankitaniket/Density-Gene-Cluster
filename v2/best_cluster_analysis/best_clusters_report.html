@@ -1,0 +1,166 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Best Clusters Analysis</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+                h1, h2 { color: #333366; }
+                .container { max-width: 1200px; margin: auto; background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+                .img-container { margin: 20px 0; text-align: center; }
+                img { max-width: 100%; border: 1px solid #ddd; border-radius: 5px; }
+                .summary { background-color: #e6f7ff; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+                table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+                th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+                th { background-color: #f2f2f2; }
+                a { color: #0066cc; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>Best Clusters Analysis</h1>
+                
+                <div class="summary">
+                    <h2>Summary</h2>
+                    <p><strong>Total Samples:</strong> 624</p>
+                    <p><strong>Number of Clusters:</strong> 4</p>
+                    <p><strong>Number of Best Clusters Analyzed:</strong> 4</p>
+                    <p><strong>Percentage of Samples in Best Clusters:</strong> 100.00%</p>
+                </div>
+                
+                <h2>Visualizations</h2>
+        
+                <div class="img-container">
+                    <h3>Best Clusters Overview</h3>
+                    <a href="1_best_clusters_overview.png" target="_blank">
+                        <img src="1_best_clusters_overview.png" alt="Best Clusters Overview">
+                    </a>
+                    <p><a href="1_best_clusters_overview.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>Best Clusters Visualization</h3>
+                    <a href="2_best_clusters_visualization.png" target="_blank">
+                        <img src="2_best_clusters_visualization.png" alt="Best Clusters Visualization">
+                    </a>
+                    <p><a href="2_best_clusters_visualization.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>Feature Analysis</h3>
+                    <a href="3_feature_analysis.png" target="_blank">
+                        <img src="3_feature_analysis.png" alt="Feature Analysis">
+                    </a>
+                    <p><a href="3_feature_analysis.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>Feature Distributions</h3>
+                    <a href="4_feature_distributions.png" target="_blank">
+                        <img src="4_feature_distributions.png" alt="Feature Distributions">
+                    </a>
+                    <p><a href="4_feature_distributions.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>Cluster Similarity Analysis</h3>
+                    <a href="5_cluster_similarity.png" target="_blank">
+                        <img src="5_cluster_similarity.png" alt="Cluster Similarity Analysis">
+                    </a>
+                    <p><a href="5_cluster_similarity.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>Silhouette Analysis</h3>
+                    <a href="6_silhouette_analysis.png" target="_blank">
+                        <img src="6_silhouette_analysis.png" alt="Silhouette Analysis">
+                    </a>
+                    <p><a href="6_silhouette_analysis.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>Stability Analysis</h3>
+                    <a href="7_stability_analysis.png" target="_blank">
+                        <img src="7_stability_analysis.png" alt="Stability Analysis">
+                    </a>
+                    <p><a href="7_stability_analysis.png" download>Download this image</a></p>
+                </div>
+            
+                <div class="img-container">
+                    <h3>Top 5 Cluster Profiles</h3>
+                    <a href="8_top5_cluster_profiles.png" target="_blank">
+                        <img src="8_top5_cluster_profiles.png" alt="Top 5 Cluster Profiles">
+                    </a>
+                    <p><a href="8_top5_cluster_profiles.png" download>Download this image</a></p>
+                </div>
+            
+                <h2>Best Clusters Summary</h2>
+                <table>
+                    <tr>
+                        <th>Cluster ID</th>
+                        <th>Size</th>
+                        <th>% of Total</th>
+        
+                        <th>Cohesion</th>
+            
+                        <th>Stability</th>
+            
+                    </tr>
+        
+                    <tr>
+                        <td>0</td>
+                        <td>621</td>
+                        <td>99.52%</td>
+            
+                        <td>0.6712</td>
+                
+                        <td>0.7995</td>
+                
+                    </tr>
+            
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0.16%</td>
+            
+                        <td>1.0000</td>
+                
+                        <td>0.8000</td>
+                
+                    </tr>
+            
+                    <tr>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>0.16%</td>
+            
+                        <td>1.0000</td>
+                
+                        <td>0.8000</td>
+                
+                    </tr>
+            
+                    <tr>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>0.16%</td>
+            
+                        <td>1.0000</td>
+                
+                        <td>0.9000</td>
+                
+                    </tr>
+            
+                </table>
+                
+                <h2>Conclusion</h2>
+                <p>
+                    This analysis highlights the best clusters identified by your algorithm, showcasing their 
+                    distinctive features, internal cohesion, and stability. The visualizations demonstrate how 
+                    well-separated these clusters are and which features contribute most to their formation.
+                </p>
+        
+            </div>
+        </body>
+        </html>
+        
